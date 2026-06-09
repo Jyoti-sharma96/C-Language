@@ -5,10 +5,6 @@ main()
 {
 	
 	int lang,area,venue,time,snac,ind,mov,sea,sp,s_p,sn_p,gen; 
-	float se_co=s_p*sea;
-	float gb=se_co+sn_p;
-	float gst=gb*0.18; //18/100=0.18
-	float tb=gst+gb;
 	
 	p("\nCHOOSE THE LANGUAGE YOU WANT TO PROCEED WITH- \n");
 	p("\nAAGE BHADNE HETU BHASHA CHUNE-\n");
@@ -169,7 +165,11 @@ main()
 								        }
 								        
 								        
-								        
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
@@ -293,14 +293,18 @@ main()
 									    {
 									        sn_p=0;
 								        }
-								       ;
+								       
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
 								        p("\n Your Snacks : %d",sn_p);
 								        p("\n Your total seat price : %.2f",se_co);
-								        p("\n TOTAL AMMOUNT TO BE PAID WITH GST (18%): %.2f",tb);
-                                        
+								        p("\n TOTAL AMMOUNT TO BE PAID : %.2f",tb);
 									}
 									 else
             	                    {
@@ -417,13 +421,17 @@ main()
 									        sn_p=0;
 								        }
 								        
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
 								        p("\n Your Snacks : %d",sn_p);
 								        p("\n Your total seat price : %.2f",se_co);
-								        p("\n TOTAL AMMOUNT TO BE PAID WITH GST (18%): %.2f",tb);
-                                        
+								        p("\n TOTAL AMMOUNT TO BE PAID : %.2f",tb);
 									}
 									 else
             	                    {
@@ -555,13 +563,17 @@ main()
 									        sn_p=0;
 								        }
 								
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
 								        p("\n Your Snacks : %d",sn_p);
 								        p("\n Your total seat price : %.2f",se_co);
 								        p("\n TOTAL AMMOUNT TO BE PAID : %.2f",tb);
-									 
 									 }//no of seats 
 									 else
             	                     {
@@ -678,12 +690,17 @@ main()
 									        sn_p=0;
 								        }
 								    
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
 								        p("\n Your Snacks : %d",sn_p);
 								        p("\n Your total seat price : %.2f",se_co);
-								        p("\n TOTAL AMMOUNT TO BE PAID WITH GST (18%): %.2f",tb);
+								        p("\n TOTAL AMMOUNT TO BE PAID : %.2f",tb);
                                         
 									}
 									 else
@@ -801,13 +818,17 @@ main()
 									        sn_p=0;
 								        }
 								        
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
 								        p("\n Your Snacks : %d",sn_p);
 								        p("\n Your total seat price : %.2f",se_co);
-								        p("\n TOTAL AMMOUNT TO BE PAID WITH GST (18%): %.2f",tb);
-                                        
+								        p("\n TOTAL AMMOUNT TO BE PAID : %.2f",tb);
 									}
 									 else
             	                    {
@@ -833,7 +854,7 @@ main()
 	               	
 	               	
 	               	//industry 3 start-tollywood english
-	               	if(ind==3)
+	               	else if(ind==3)
       	            {
       	            	 p("\nCHOOSE YOUR GENRE\n");
 	    	             p("\n=================\n");
@@ -940,6 +961,11 @@ main()
 									        sn_p=0;
 								        }
 								        
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
@@ -1063,12 +1089,17 @@ main()
 									        sn_p=0;
 								        }
 								    
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
 								        p("\n Your Snacks : %d",sn_p);
 								        p("\n Your total seat price : %.2f",se_co);
-								        p("\n TOTAL AMMOUNT TO BE PAID WITH GST (18%): %.2f",tb);
+								        p("\n TOTAL AMMOUNT TO BE PAID : %.2f",tb);
                                         
 									}
 									 else
@@ -1186,12 +1217,17 @@ main()
 									        sn_p=0;
 								        }
 								        
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+	
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Your choosen seat price : %d",s_p);
 								        p("\n Number of seats choosen : %d",sea);
 								        p("\n Your Snacks : %d",sn_p);
 								        p("\n Your total seat price : %.2f",se_co);
-								        p("\n TOTAL AMMOUNT TO BE PAID WITH GST (18%): %.2f",tb);
+								        p("\n TOTAL AMMOUNT TO BE PAID : %.2f",tb);
                                     }
 									 else
             	                    {
@@ -1213,9 +1249,12 @@ main()
 	            	      p("Invalid Genre Selected-Try Again.");
             	        } 
 	               	}//industry 3 tollywood closed
+	               	else
+        	        {
+	        	       p("Invalid Industry Option Selected-Try Again.");
+        	        }
 	               	
-	               	
-				}//time
+	            }//time
 				else
             	{
 	            	p("Invalid Time slot Selected-Try Again.");
@@ -1232,9 +1271,8 @@ main()
 	    }
 	}//language brace closed
 	
-	
-	//Hindi Language start
-	if(lang==2)
+    // Hindi language code.
+    else if(lang==2)
 	{
 		p("\nAPNA KSHETRA CHUNE\n");
 		p("\n==================\n");
@@ -1326,7 +1364,7 @@ main()
                                           p("\nNachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\nCoke ke liye 4 dabayein - 49 rs.");
                                           p("\nCombo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\nCombo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\nCombo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\nAgar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -1382,7 +1420,10 @@ main()
 									    {
 									        sn_p=0;
 								        }
-								        
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
@@ -1406,6 +1447,8 @@ main()
 	            	           p("Amaanya Movie Chuni Gayi-Dobara Prayas Kare..");
             	            } 
 						}//gen 1 closed hindi
+						
+						
 						//gen 2 hollywood start-hindi
 						else if(gen==2)
 						{
@@ -1447,7 +1490,7 @@ main()
                                           p("\nNachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\nCoke ke liye 4 dabayein - 49 rs.");
                                           p("\nCombo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\nCombo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\nCombo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\nAgar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -1504,6 +1547,10 @@ main()
 									        sn_p=0;
 								        }
 								        
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
 								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
@@ -1568,7 +1615,7 @@ main()
                                           p("\nNachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\nCoke ke liye 4 dabayein - 49 rs.");
                                           p("\nCombo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\nCombo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\nCombo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\nAgar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -1625,7 +1672,11 @@ main()
 									        sn_p=0;
 								        }
 								       
-								        p("\n SUMMARY - BHUGTAAN SE PEHLE JAANCHLE  :\n");
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
 								        p("\n Aapke Nashte ki Keemat : %d",sn_p);
@@ -1704,7 +1755,7 @@ main()
                                           p("\n3.Nachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\n4.Coke ke liye 4 dabayein - 49 rs.");
                                           p("\n5.Combo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\n7.Agar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -1761,7 +1812,11 @@ main()
 									        sn_p=0;
 								        }
 								       
-								        p("\n SUMMARY - BHUGTAAN SE PEHLE JAANCHLE  :\n");
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
 								        p("\n Aapke Nashte ki Keemat : %d",sn_p);
@@ -1784,6 +1839,8 @@ main()
 	            	           p("Amaanya Movie Chuni Gayi-Dobara Prayas Kare.");
             	            }
 						}//gen 1 bollywood english closed
+						
+						
 						//gen 2 bollywood start-english
 						else if(gen==2)
 						{
@@ -1825,7 +1882,7 @@ main()
                                           p("\n3.Nachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\n4.Coke ke liye 4 dabayein - 49 rs.");
                                           p("\n5.Combo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\n7.Agar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -1882,7 +1939,11 @@ main()
 									        sn_p=0;
 								        }
 								        
-								        p("\n SUMMARY - BHUGTAAN SE PEHLE JAANCHLE  :\n");
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
 								        p("\n Aapke Nashte ki Keemat : %d",sn_p);
@@ -1946,7 +2007,7 @@ main()
                                           p("\n3.Nachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\n4.Coke ke liye 4 dabayein - 49 rs.");
                                           p("\n5.Combo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\n7.Agar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -2003,7 +2064,11 @@ main()
 									        sn_p=0;
 								        }
 								        
-								        p("\n SUMMARY - BHUGTAAN SE PEHLE JAANCHLE  :\n");
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
 								        p("\n Aapke Nashte ki Keemat : %d",sn_p);
@@ -2032,7 +2097,9 @@ main()
 	            	      p("Amaanya Shaili Chuni Gayi-Dobara Prayas Kare.");
             	        } 
 	               	}//industry 2-bollywood HINDI closed
-	               	//industry 3 start-tollywood ENGLISH
+	               	
+	               	
+	               	//industry 3 start-tollywood Hindi
 	               	if(ind==3)
       	            {
       	            	 p("\nAPNI SHAILI CHUNEI\n");
@@ -2083,7 +2150,7 @@ main()
                                           p("\n3.Nachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\n4.Coke ke liye 4 dabayein - 49 rs.");
                                           p("\n5.Combo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\n7.Agar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -2140,7 +2207,11 @@ main()
 									        sn_p=0;
 								        }
 								        
-								        p("\n SUMMARY - BHUGTAAN SE PEHLE JAANCHLE  :\n");
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
 								        p("\n Aapke Nashte ki Keemat : %d",sn_p);
@@ -2206,7 +2277,7 @@ main()
                                           p("\n3.Nachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\n4.Coke ke liye 4 dabayein - 49 rs.");
                                           p("\n5.Combo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\n7.Agar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -2263,7 +2334,11 @@ main()
 									        sn_p=0;
 								        }
 								        
-								        p("\n SUMMARY - BHUGTAAN SE PEHLE JAANCHLE  :\n");
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
 								        p("\n Aapke Nashte ki Keemat : %d",sn_p);
@@ -2327,7 +2402,7 @@ main()
                                           p("\n3.Nachos and Tacos ke liye 3 dabayein - 399 rs.");
                                           p("\n4.Coke ke liye 4 dabayein - 49 rs.");
                                           p("\n5.Combo (French fries aur Coke) ke liye 5 dabayein - 250 rs.");
-                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.\n");
+                                          p("\n6.Combo (Nachos, Tacos, Coke aur Sandwich) ke liye 6 dabayein - 700 rs.");
                                           p("\n7.Agar kuch nahi chahiye to 7 dabayein.\n");
                                           p("\nApna Chunav Darz Karayein : ");
                                           s("%d",&snac);
@@ -2384,7 +2459,11 @@ main()
 									        sn_p=0;
 								        }
 								        
-								        p("\n SUMMARY - BHUGTAAN SE PEHLE JAANCHLE  :\n");
+								        float se_co=s_p*sea;
+	                                    float gb=se_co+sn_p;
+	                                    float gst=gb*0.18; //18/100=0.18
+	                                    float tb=gst+gb;
+								        p("\n SUMMARY - Check for confirmation :\n");
 								        p("\n Aapki Seat ki keemat : %d",s_p);
 								        p("\n Kitni Seatein Chuni Gayi : %d",sea);
 								        p("\n Aapke Nashte ki Keemat : %d",sn_p);
@@ -2432,5 +2511,9 @@ main()
 		   p("Amaanya Kshetra Chuna Gaya-Dobara Prayaas Kare.");
 	    }
 	}// hindi language brace closed
-	
+	else
+    {
+    	p("\n\nInvalid Language Selected-Try Again\n\n");
+    	p("Amaanya Bhasha Chuni Gayi-Dobara Prayas Kare.\n\n\n");
+    }
 }//main function
